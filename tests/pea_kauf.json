@@ -1,0 +1,109 @@
+{
+  "id": "8570cec4-1dad-4d57-93fc-2233737527e0",
+  "timestamp": "2025-01-20T08:18:37.172+0000",
+  "title": "S&P 500 EUR (Acc)",
+  "icon": "logos/FR0011550185/v2",
+  "avatar": {
+    "asset": "logos/FR0011550185/v2",
+    "badge": null
+  },
+  "badge": null,
+  "subtitle": "PEA",
+  "amount": {
+    "currency": "EUR",
+    "value": -29.17,
+    "fractionDigits": 2
+  },
+  "subAmount": null,
+  "status": "EXECUTED",
+  "action": {
+    "type": "timelineDetail",
+    "payload": "8570cec4-1dad-4d57-93fc-2233737527e0"
+  },
+  "cashAccountNumber": "0000000000",
+  "hidden": false,
+  "deleted": false,
+  "eventType": "PEA_DEPOSIT_DEBIT",
+  "source": "timelineTransaction",
+  "details": {
+    "id": "8570cec4-1dad-4d57-93fc-2233737527e0",
+    "sections": [
+      {
+        "title": "Du hast 29.17 € in deinen PEA investiert",
+        "data": {
+          "icon": {
+            "asset": "logos/FR0011550185/v2",
+            "badge": null
+          },
+          "subtitleText": "20 Jan. 2025 · 08:18",
+          "status": "executed"
+        },
+        "action": {
+          "payload": "FR0011550185",
+          "type": "instrumentDetail"
+        },
+        "type": "header"
+      },
+      {
+        "title": "Übersicht",
+        "data": [
+          {
+            "title": "Konto",
+            "detail": {
+              "text": "PEA",
+              "displayValue": {
+                "text": "PEA",
+                "textDataSensitivity": "PUBLIC"
+              },
+              "type": "text"
+            },
+            "style": "plain"
+          },
+          {
+            "title": "Status",
+            "detail": {
+              "text": "Ausgeführt",
+              "functionalStyle": "EXECUTED",
+              "type": "status"
+            },
+            "style": "plain"
+          },
+          {
+            "title": "Zahlung",
+            "detail": {
+              "text": "Cash",
+              "icon": "logos/bank_traderepublic/v2",
+              "type": "iconWithText"
+            },
+            "style": "plain"
+          },
+          {
+            "title": "Ordertyp",
+            "detail": {
+              "text": "Kauf",
+              "displayValue": {
+                "text": "Kauf",
+                "textDataSensitivity": "PUBLIC"
+              },
+              "type": "text"
+            },
+            "style": "plain"
+          },
+          {
+            "title": "Asset",
+            "detail": {
+              "text": "S&P 500 EUR (Acc)",
+              "displayValue": {
+                "text": "S&P 500 EUR (Acc)",
+                "textDataSensitivity": "PUBLIC"
+              },
+              "type": "text"
+            },
+            "style": "plain"
+          }
+        ],
+        "type": "table"
+      }
+    ]
+  }
+}

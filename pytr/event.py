@@ -82,6 +82,8 @@ tr_event_type_mapping = {
     # Trade invoices
     "IPO_TRADE_EXECUTED": ConditionalEventType.TRADE_INVOICE,
     "ORDER_EXECUTED": ConditionalEventType.TRADE_INVOICE,
+    "PEA_DEPOSIT_DEBIT": ConditionalEventType.TRADE_INVOICE,
+    "PEA_SAVINGS_PLAN_PAY_IN": ConditionalEventType.TRADE_INVOICE,
     "SAVINGS_PLAN_EXECUTED": ConditionalEventType.TRADE_INVOICE,
     "SAVINGS_PLAN_INVOICE_CREATED": ConditionalEventType.TRADE_INVOICE,
     "TRADE_CORRECTED": ConditionalEventType.TRADE_INVOICE,

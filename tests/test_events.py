@@ -1196,6 +1196,38 @@ def test_events():
             "transactions": [],
         },
         {
+            "filename": "pea_kauf.json",
+            "event_type": ConditionalEventType.TRADE_INVOICE,
+            "title": "S&P 500 EUR (Acc)",
+            "isin": "FR0011550185",
+            "value": -29.17,
+            "transactions": [
+                {
+                    "Datum": "2025-01-20T08:18:37",
+                    "Typ": "Kauf",
+                    "Wert": -29.17,
+                    "Notiz": "S&P 500 EUR (Acc)",
+                    "ISIN": "FR0011550185",
+                }
+            ],
+        },
+        {
+            "filename": "pea_sparplan.json",
+            "event_type": ConditionalEventType.TRADE_INVOICE,
+            "title": "S&P 500 EUR (Acc)",
+            "isin": "FR0011550185",
+            "value": -29.02,
+            "transactions": [
+                {
+                    "Datum": "2025-02-03T15:21:05",
+                    "Typ": "Kauf",
+                    "Wert": -29.02,
+                    "Notiz": "S&P 500 EUR (Acc)",
+                    "ISIN": "FR0011550185",
+                }
+            ],
+        },
+        {
             "filename": "payment_inbound_credit_card.json",
             "event_type": PPEventType.DEPOSIT,
             "title": "Einzahlung",

@@ -1,0 +1,109 @@
+{
+  "id": "50977990-d326-4ecc-81c2-ddb2a7fc455a",
+  "timestamp": "2025-02-03T15:21:05.133+0000",
+  "title": "S&P 500 EUR (Acc)",
+  "icon": "logos/FR0011550185/v2",
+  "avatar": {
+    "asset": "logos/FR0011550185/v2",
+    "badge": null
+  },
+  "badge": null,
+  "subtitle": "Sparplan ausgeführt",
+  "amount": {
+    "currency": "EUR",
+    "value": -29.02,
+    "fractionDigits": 2
+  },
+  "subAmount": null,
+  "status": "EXECUTED",
+  "action": {
+    "type": "timelineDetail",
+    "payload": "50977990-d326-4ecc-81c2-ddb2a7fc455a"
+  },
+  "cashAccountNumber": "0000000000",
+  "hidden": false,
+  "deleted": false,
+  "eventType": "PEA_SAVINGS_PLAN_PAY_IN",
+  "source": "timelineTransaction",
+  "details": {
+    "id": "50977990-d326-4ecc-81c2-ddb2a7fc455a",
+    "sections": [
+      {
+        "title": "Du hast 29.02 € in deinem PEA gespart",
+        "data": {
+          "icon": {
+            "asset": "logos/FR0011550185/v2",
+            "badge": null
+          },
+          "subtitleText": "3 Feb. 2025 · 15:21",
+          "status": "executed"
+        },
+        "action": {
+          "payload": "FR0011550185",
+          "type": "instrumentDetail"
+        },
+        "type": "header"
+      },
+      {
+        "title": "Übersicht",
+        "data": [
+          {
+            "title": "Konto",
+            "detail": {
+              "text": "PEA",
+              "displayValue": {
+                "text": "PEA",
+                "textDataSensitivity": "PUBLIC"
+              },
+              "type": "text"
+            },
+            "style": "plain"
+          },
+          {
+            "title": "Status",
+            "detail": {
+              "text": "Ausgeführt",
+              "functionalStyle": "EXECUTED",
+              "type": "status"
+            },
+            "style": "plain"
+          },
+          {
+            "title": "Zahlung",
+            "detail": {
+              "text": "Cash",
+              "icon": "logos/bank_traderepublic/v2",
+              "type": "iconWithText"
+            },
+            "style": "plain"
+          },
+          {
+            "title": "Ordertyp",
+            "detail": {
+              "text": "Sparplan",
+              "displayValue": {
+                "text": "Sparplan",
+                "textDataSensitivity": "PUBLIC"
+              },
+              "type": "text"
+            },
+            "style": "plain"
+          },
+          {
+            "title": "Asset",
+            "detail": {
+              "text": "S&P 500 EUR (Acc)",
+              "displayValue": {
+                "text": "S&P 500 EUR (Acc)",
+                "textDataSensitivity": "PUBLIC"
+              },
+              "type": "text"
+            },
+            "style": "plain"
+          }
+        ],
+        "type": "table"
+      }
+    ]
+  }
+}
