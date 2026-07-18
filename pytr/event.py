@@ -521,6 +521,9 @@ class Event:
         ] and subtitle not in [
             "Aufruf von Zwischenpapieren",
             "Wertlos",
+        ] and eventTypeStr not in [
+            "PEA_DEPOSIT_DEBIT",
+            "PEA_SAVINGS_PLAN_PAY_IN",
         ]:
             get_event_logger().warning("Could not parse fees from %s", eventdesc)
             get_event_logger().debug("Failed to parse fees from %s", json.dumps(event_dict, indent=4))
@@ -731,6 +734,8 @@ class Event:
                 "ssp_corporate_action_invoice_cash",
                 "private_markets_order_created",
                 "private_markets_trade_executed",
+                "PEA_DEPOSIT_DEBIT",
+                "PEA_SAVINGS_PLAN_PAY_IN",
             ]
             and title != "Private Equity"
             and subtitle != "Aktienprämiendividende"
